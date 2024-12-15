@@ -47,7 +47,7 @@ O projeto inclui as seguintes etapas principais:
 ## Exemplo de Detecção
 
 ### Antes do treinamento com capacetes
-![Detecção antes do treinamento](video_moto_deteccao.mp4)
+![Detecção antes do treinamento](video_moto_deteccao.gif)
 
 ### Durante o treinamento com capacetes
 ![Detecção durante o treinamento](train_batch1.jpg)
