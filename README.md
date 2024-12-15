@@ -14,6 +14,7 @@ O projeto inclui as seguintes etapas principais:
    Foi utilizada uma base de dados rotulada do Roboflow
    (https://universe.roboflow.com/yolo-do-it-yhopz/helmet-detector-9rzmg-bmd6q)
    O gráfico abaixo mostra as labels e as instancias do banco de dados.
+   
    ![Labels](labels.png)
    
 4. **Configuração do YOLOv9**  
