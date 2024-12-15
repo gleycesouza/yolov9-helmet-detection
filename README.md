@@ -12,13 +12,15 @@ O projeto inclui as seguintes etapas principais:
 
 2. **Base de dados de imagens de capacetes**  
    Foi utilizada uma base de dados rotulada do Roboflow
-   (https://universe.roboflow.com/yolo-do-it-yhopz/helmet-detector-9rzmg-bmd6q) 
+   (https://universe.roboflow.com/yolo-do-it-yhopz/helmet-detector-9rzmg-bmd6q)
+   O gráfico abaixo mostra as labels e as instancias do banco de dados.
+   ![Labels](labels.png)
    
-3. **Configuração do YOLOv9**  
+4. **Configuração do YOLOv9**  
    A rede YOLOv9 foi configurada e treinada a partir de uma base de dados inicial para realizar transfer learning. 
    Foram adicionadas 13 novas classes, incluindo diversos tipos de capacetes.
 
-4. **Treinamento da Rede**  
+5. **Treinamento da Rede**  
    O treinamento foi iniciado no Colab, utilizando a base de dados rotulada de capacetes. 
    No entanto, devido a limitações de tempo e recursos no Colab, o treinamento foi interrompido após apenas 1 época.
 
@@ -45,7 +47,7 @@ O projeto inclui as seguintes etapas principais:
 ## Exemplo de Detecção
 
 ### Antes do treinamento com capacetes
-![Detecção antes do treinamento](caminho/para/imagem_antes.jpg)
+![Detecção antes do treinamento](video_moto_deteccao.mp4)
 
 ### Durante o treinamento com capacetes
-![Detecção durante o treinamento](caminho/para/imagem_durante.jpg)
+![Detecção durante o treinamento](train_batch1.jpg)
